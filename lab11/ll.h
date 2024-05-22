@@ -1,0 +1,13 @@
+typedef struct Node Node;
+Node* new_node(void*);
+typedef struct LinkedList LinkedList;
+LinkedList* new_linked_list();
+void insert_at_front(LinkedList*,void*);
+void insert_at_back(LinkedList*,void*);
+void insert_after_nth(LinkedList* ll, void* data, int n);
+void insert_in_order(LinkedList* ll, void* data, int(*comp)(void*,void*));
+void* remove_from_front(LinkedList*);
+void* remove_from_back(LinkedList*);
+int size(LinkedList*);
+void print_ll(LinkedList*);
+int is_empty(LinkedList*);

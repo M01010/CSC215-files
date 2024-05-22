@@ -1,0 +1,11 @@
+int length(char *);
+int compare(char*, char*);
+void reverse(char*);
+int isPalindrome(char*);
+char *findchar(char, char*);
+char *findlastchar(char, char*);
+void removeallspaces(char*);
+void to_upper(char*);
+int numwords(char*);
+int numlines(char*);
+char **split(char*);
